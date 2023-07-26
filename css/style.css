@@ -1,0 +1,79 @@
+body
+{
+    background-color:bisque;
+}
+
+.center {
+    text-align: center;
+  }
+h1
+{
+    color:black;
+}
+a
+{
+    text-decoration: none;
+    font-family: Impact;
+    padding: 20px;
+    font-size: 25pt;
+    color:rgb(8, 8, 8);
+}
+
+a:hover 
+{
+    color:rgb(10, 10, 10);
+    font-size: 20pt;
+}
+
+
+.header
+{
+    width: 100%;
+    background-color:rgb(209, 157, 93);
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 400px;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 20pt;
+}
+
+.hero img {
+    width: 500px;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: 'REM', sans-serif;
+    justify-content: center;
+}
+
+img {
+    width: 250px;
+    height: 300px;
+    margin-right: 20px;
+    object-fit:cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
